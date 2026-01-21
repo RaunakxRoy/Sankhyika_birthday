@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- Balloons -->
+<div class="balloons"></div>
+
+<!-- Main Content -->
+<div class="container">
+
+    <div class="photo">
+        <img src="images/person.jpg" alt="Birthday Person">
+    </div>
+
+    <h1 class="title">
+        <span>H</span><span>a</span><span>p</span><span>p</span><span>y</span><br>
+        <span>B</span><span>i</span><span>r</span><span>t</span><span>h</span><span>d</span><span>a</span><span>y</span>
+    </h1>
+
+    <h2 class="name">Sankhyika</h2>
+    <p class="date">22 January</p>
+
+    <button id="openLetter">Open Letter</button>
+</div>
+
+<!-- Letter -->
+<div class="letter-overlay" id="letterOverlay">
+    <div class="letter">
+        <i class="fa-solid fa-xmark close" id="closeLetter"></i>
+        <p id="letterText"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
